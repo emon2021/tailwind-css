@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss",
+  "version": "3.0.24",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+  "homepage": "https://tailwindcss.com",
+  "repository": {
+    
+  },
+  "license": "MIT",
+  "author": "Adam Wathan, Jonathan Reinink, Dave Friesen",
+  "main": "tailwind.config.js",
+  "files": [
+    
+  ],
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
